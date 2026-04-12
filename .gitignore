@@ -1,0 +1,34 @@
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente (NUNCA suba sua chave de API)
+.env
+
+# ChromaDB (banco vetorial gerado localmente)
+chroma_db/
+*.sqlite3
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribuição / build
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
